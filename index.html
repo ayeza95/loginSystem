@@ -1,0 +1,98 @@
+<!-- <?php
+session_start();
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+  header("location: login.php");
+  exit;
+}
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesForce UI</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <img src="https://login.salesforce.com/img/logo214.svg" width="100px">
+            </div>
+            <div class="texts"><p>Products</p></div>
+            <div class="texts"><p>Industries</p></div>
+            <div class="texts"><p>Customers</p></div>
+            <div class="texts"><p>Learning</p></div>
+            <div class="texts"><p>Support</p></div>
+            <div class="texts">
+                <p>More</p>
+                <p><i class="ri-arrow-down-s-line"></i></p>
+            </div>
+            <div id="contact">
+                <p style="text-align: center;"><u>Contact Us</u></p>
+                <p>+1800-0000-0000</p>
+            </div>
+            <div class="icon"><i class="ri-search-line"></i></div>
+            <div class="icon"><i class="ri-global-line"></i></div>
+            <a href="logOut.php">
+                <div id="login"><p>logOut</p>
+                    <i class="ri-user-3-fill"></i></div>
+            </a>
+            <div id="try">Try for Free</div>
+        </div>
+        <div id="FakeHeader">
+        </div>
+        <div id="page1">
+            <div id="strip">
+                <p>JUST ANNOUNCED: See why Gartner® recognised Salesforce as a Leader in Customer Data Platforms.</p><u>Read the report</u></div>
+            <div id="content">
+                <div id="box1"><h1>Try Salesforce Starter Suite for free.</h1>
+                <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+                <div id="btns">
+                    <div id="btn1">Start free trial</div>
+                    <div id="btn2">Watch demo</div>
+                </div>
+            </div>
+                <div id="box2">
+                    <img src="video-bg.jpg">
+                    <video width="400" controls src="video.mp4"></video>
+                </div>
+            </div>
+            <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
+        </div>
+        <div id="page2">
+            <div class="cards">
+                <div id="card1">
+                    <img src="https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-1.jpg?resize=768,433">
+                    <h1>Small Business</h1>
+                    <p>Sales, service, and email outreach tools in a single app.</p>
+                    <div id="in"><u>Learn more</u></div>
+                </div>
+                <div id="card2">
+                    <img src="https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-2.jpg?resize=768,433">
+                    <h1>Sales Cloud</h1>
+                    <p>Close more deals and speed up growth with the #1 CRM.                    </p>
+                    <div id="in"><u>Learn more</u></div>
+                </div>
+                <div id="card3">
+                    <img src="https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-3.jpg?resize=768,433">
+                    <h1>Service Cloud</h1>
+                    <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                    <div id="in"><u>Learn more</u></div>
+                </div>
+                <div id="card4">
+                    <img src="https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-4.jpg?resize=768,433">
+                    <h1>Marketing Cloud</h1>
+                    <p>Build customer relationships for life with data-first digital marketing.                    </p>
+                    <div id="in"><u>Learn more</u></div>
+                </div>
+            </div>
+            <div class="strip"><div id="note">View all our products</div></div>
+        </div>  
+    </div>
+</body>
+</html>

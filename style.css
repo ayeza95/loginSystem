@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 70%;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.texts{
+    color: rgb(2, 2, 76);
+    display: flex;
+}
+.texts:hover{
+    color: rgb(120, 211, 242);
+    cursor: pointer;
+}
+#contact{
+    font-weight: lighter;
+}
+#contact:hover{
+    cursor: pointer;
+    color: rgb(120, 211, 242);
+}
+.icon{
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+#login:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+#try{
+    background-color: rgb(30, 169, 30);
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(3, 96, 3);
+    cursor: pointer;
+}
+#FakeHeader{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+}
+#strip{
+    background-color: rgb(9, 9, 129);
+    height: 8%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#heading{
+    height: 16%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(9, 9, 129);
+    font-style: inherit;
+}
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    padding: 20px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1 h1{
+    font-weight: 600;
+    font-size: 55px;
+    margin: 30px 10px;
+    font-family: 'Gill Sans';
+    color: rgb(9, 9, 130);
+}
+#box1 p{
+    margin: 30px 10px;
+    font-size: 300;
+    font-weight: 300;
+}
+#btns{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 25%;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid rgb(20, 147, 190);
+    background-color: rgb(20, 147, 190);
+    border-radius: 4px;
+}
+#btn1:hover{
+    background-color: rgb(4, 4, 130);
+    cursor: pointer;
+}
+#btn2{
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+    padding: 10px 20px;
+    color: rgb(20, 147, 190);
+    border: 1px solid rgb(20, 147, 190);
+    border-radius: 4px;
+}
+#btn2:hover{
+    background-color: lightblue;
+    color: rgb(8, 97, 127);
+    border-color: rgb(8, 97, 127);
+    cursor: pointer;
+}
+#box2{
+    height: 65%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    object-fit: cover;
+    justify-content: space-around;
+}
+#box2 img{
+    height: 100%;
+    border-radius: 15px;
+    z-index: 1;
+    width: 100%;
+}
+#box2 video{
+    height: 30%;
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+}
+#box2:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#page2{
+    height: 82%;
+    width: 100%; 
+    text-align: center;
+    background-color: aliceblue;
+}
+.cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 16, 138);
+}
+#card1{
+    height: 70%;
+    width: 20%;
+    border-color: rgba(220, 220, 220, 0.725);
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+#card1 img{
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 25px;
+}
+#card2{
+    height: 70%;
+    width: 20%;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+#card2 img{
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 25px;
+}
+#card3{
+    height: 70%;
+    width: 20%;
+    margin-top: 70px;
+    border-radius: 25px;
+    margin-left: 40px;
+    background-color: white;
+    text-align: center;
+}
+#card3 img{
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 25px;
+}
+#card4{
+    height: 70%;
+    width: 20%;
+    margin-top: 70px;
+    margin-left: 40px ;
+    margin-right: 40px ;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+#card4 img{
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 25px;
+}
+.cards p{
+    margin: 12px;
+}
+#in{
+    margin-top: 70px;
+}
+#in:hover{
+    color: rgb(127, 127, 239);
+    cursor: pointer;
+}
+.strip{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 5%;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+#note{
+    color: rgb(6, 6, 234);
+    margin: 10px;
+    width: 12%;
+    border-radius: 3px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid rgb(90, 90, 220);
+}
+#note:hover{
+    background-color: rgb(213, 232, 240);
+    cursor: pointer;
+}
